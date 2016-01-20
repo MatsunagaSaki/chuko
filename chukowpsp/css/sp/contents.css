@@ -1,0 +1,290 @@
+@charset "utf-8";
+
+/* #breadcrumbs -------------------- */
+
+.breadcrumbs {
+	width: 100%;
+	margin: 10px auto;
+}
+.breadcrumbs li {
+	float: left;
+	padding-right: 18px;
+	background: url('../../img/common/bg_arrow.gif') no-repeat right center;
+	line-height: 1;
+	margin-right: 10px;
+}
+.breadcrumbs li:last-child {
+	padding-right: 0;
+	background: none;
+}
+
+/* underTop -------------------- */
+h2.pageMain {
+	margin-bottom: 30px;
+	width: 100%;
+}
+h2.pageMain img {
+	width: 100%;
+}
+.content01 h3 {
+	margin-bottom: 20px;
+}
+
+/* chukoguraTop -------------------- */
+.spSidePd {
+	padding: 0 10px;
+}
+.ckgTable {
+	width: 300px;
+	margin: 0 auto;
+}
+.ckgTd01 {
+	padding-bottom: 10px;
+}
+.ckgAccessTtl {
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	background: #482d11;
+	padding:10px 0;
+}
+.ckgReserveTtl {
+	font-size: 16px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	background: #9d0d32;
+	padding:10px 0;
+}
+.leftTd,
+.leftTd a,
+.leftTd a img {
+	width: 150px;
+	text-align: left;
+}
+.rightTd,
+.rightTd a,
+.rightTd a img {
+	width: 140px;
+	text-align: right;
+}
+.pb30 {
+	padding-bottom: 30px;
+}
+.spH3 {
+	border-bottom: 1px solid #482d11;
+	font-size: 16px;
+	font-weight: bold;
+	color: #482d11;
+	text-align: left;
+	padding: 0 0 5px 5px;
+	margin-bottom: 20px;
+}
+.spH3Main {
+	border-top: 2px solid #482d11;
+	border-bottom: 1px solid #482d11;
+	font-size: 16px;
+	font-weight: bold;
+	color: #482d11;
+	text-align: left;
+	padding: 5px 0 5px 5px;
+	margin-bottom: 20px;
+}
+.spH2 {
+	border-top: 2px solid #482d11;
+	border-bottom: 2px solid #482d11;
+	font-size: 16px;
+	font-weight: bold;
+	color: #482d11;
+	text-align: left;
+	padding: 8px 0 8px 5px;
+	margin-bottom: 20px;
+}
+.spH4 {
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 1px solid #482d11;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+#imgMap {
+	position: relative;
+}
+
+#imgMap a {
+	width: 34px;
+	height: 34px;
+	position: absolute;
+	z-index: 10;
+}
+
+#imgMap a.mapBtn01 {
+	left: 65%;
+	top: 40%;
+}
+
+#imgMap a.mapBtn02 {
+	left: 57%;
+	top: 39%;
+}
+
+#imgMap a.mapBtn03 {
+	left: 37%;
+	top: 30%;
+}
+
+#imgMap a.mapBtn04 {
+	left: 18%;
+	top: 40%;
+}
+
+#imgMap a.mapBtn05 {
+	left: 74%;
+	top: 45%;
+}
+
+#imgMap a.mapBtn06 {
+	left: 83%;
+	top:48%;
+}
+
+.remodal-wrapper {
+	padding: 30px;
+}
+/* kameire -------------------- */
+.kameirePresen {
+	background: #fff0f3;
+	margin-bottom: 20px;
+}
+.kameirePresenImg {
+	width: 70%;
+	margin: 0 auto 20px auto;
+}
+.kameirePresenTtl {
+	width: 90%;
+	margin: 0 auto 20px auto;
+}
+.kameirePresenTxt {
+	padding: 0 10px 20px 10px;
+}
+/* wedding -------------------- */
+,weddingScheduleLeft {
+	width: 70px;
+}
+.weddingScheduleRight {
+	width: 75%;
+}
+.weddingScheduleRight span {
+	display: block;
+	color: #a27bac;
+	font-weight: bold;
+}
+.movieArea {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.movieArea iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+.weddingPriceLeft {
+	width: 20%;
+}
+.weddingPriceRight {
+	width: 75%;
+}
+
+/* kengakuannai -------------------- */
+.rightInner a {
+	display: block;
+	margin-top: 15px;
+}
+.spDetailBtn {
+	width: 30%;
+	display: block;
+	margin-bottom: 20px;
+}
+.kengakuTable th {
+	width: 28%;
+	text-align: left;
+	background-color: #f8f5f1;
+	border-top: solid 1px #d9d0c9;
+	padding: 5px;
+}
+.kengakuTable td {
+	width: 68%;
+	border-top: solid 1px #d9d0c9;
+	padding: 5px;
+}
+/* access -------------------- */
+.accessTxtLeft {
+	float: left;
+	width: 25%;
+	border: 1px solid #492e12;
+	color: #482d11;
+	text-align: center;
+}
+.accessTxtRight {
+	float: left;
+	padding: 2px 0 0 20px;
+	width: 65%;
+}
+.googleMapArea {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+ 
+.googleMapArea iframe,
+.googleMapArea object,
+.googleMapArea embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+/* arayakiTop -------------------- */
+.arayakiVoiceBox span {
+	display: block;
+}
+.arayakiVoiceImg img {
+	width: 80%;
+	margin: 0 auto 10px auto;
+}
+.arayakiVoiceImg {
+	font-weight: bold;
+	color: #e74f20;
+}
+
+/* story  -------------------- */
+
+.storyAwards {
+	border: 1px solid #dad5cf;
+	padding: 20px 0;
+	text-align: center;
+}
+.storyAwardsTtl {
+	display: block;
+	font-size: 16px;
+	color: #482d11;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+/* tuti  -------------------- */
+.kodawariBox img {
+	display: block;
+	margin-bottom: 20px;
+}
+/* privacy  -------------------- */
+.privacyList {;
+	margin-left: 10px;
+	padding-left: 10px;
+}

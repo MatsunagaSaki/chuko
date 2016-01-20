@@ -1,0 +1,308 @@
+@charset "utf-8";
+
+/* #kameire -------------------- */
+.kameireImg01 {
+	text-align: center;
+}
+.Arrange2.kameireLi {
+	width: 339px !important;
+	margin-right: 20px !important;
+}
+.last.Arrange2.kameireLi {
+	width: 339px !important;
+	margin-right: 0 !important;
+}
+.kameirePresen {
+	width: 700px;
+	height: 285px;
+	background: #fff0f3;
+	position: relative;
+	margin-bottom: 50px;
+}
+.kameirePresenImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.kameirePresenTtl {
+	position: absolute;
+	top: 30px;
+	left: 250px;
+}
+.kameirePresenTxt {
+	position: absolute;
+	top: 68px;
+	left: 250px;
+	width: 420px;
+}
+.sectionInner.kameireSectionBottom {
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+}
+/* #wedding -------------------- */
+.weddingScheduleLeft {
+	width: 70px;
+}
+.weddingScheduleRight {
+	width: 395px;
+	padding-left: 20px;
+}
+.weddingScheduleRight span {
+	display: block;
+	color: #a27bac;
+	font-weight: bold;
+}
+.movieArea {
+	width: 690px;
+	margin: 0 auto;
+}
+.weddingPriceLeft {
+	width: 125px;
+	padding-left: 10px;
+}
+.weddingPriceRight {
+	width: 350px;
+}
+.weddingTxt {
+	padding-left: 10px;
+}
+.weddingTxt span {
+	color: #e74f20;
+}
+/* #access -------------------- */
+.accessTtl01 {
+	color: #482d11;
+	font-weight: bold;
+	display: block;
+}
+.accessTxtLeft {
+	float: left;
+	width: 120px;
+	border: 1px solid #492e12;
+	color: #482d11;
+	text-align: center;
+}
+.accessTxtRight {
+	float: left;
+	padding: 2px 0 0 20px;
+}
+.googleMapArea {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+.googleMapArea iframe,
+.googleMapArea object,
+.googleMapArea embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+/* #arayaki -------------------- */
+.arayakiVoiceBody {
+	width: 740px;
+	margin-left: -40px;
+}
+.arayakiVoiceBox {
+	width: 330px;
+	height: 185px;
+	margin: 0 0 35px 40px;
+	border-bottom: 1px dotted #b49e88;
+	padding-bottom: 35px;
+}
+.arayakiVoiceBox span,
+.arayakiVoiceBox img {
+	display: block;
+}
+.arayakiVoiceBox span.fl {
+	font-size: 14px;
+	font-weight: bold;
+	width: 135px;
+	line-height: 1.5em;
+}
+.arayakiVoiceBox span.fr {
+	width: 165px;
+}
+/* #story -------------------- */
+.storyImg {
+	width: 255px;
+}
+.storyTxt {
+	width: 415px;
+}
+.storyAwards {
+	border: 1px solid #dad5cf;
+	padding: 30px 0;
+	text-align: center;
+}
+.storyAwardsTtl {
+	display: block;
+	font-size: 18px;
+	color: #482d11;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+/* #kodawari -------------------- */
+.kodawariTxt01 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #f57d30;
+	text-align: center;
+}
+.kodawariBody {
+	width: 672px;
+	margin: 0 auto;
+}
+.kodawariBox {
+	width: 335px;
+}
+.kodawariBox span {
+	width: 300px;
+	display: block;
+	padding-top: 30px;
+}
+/* #sitsugi -------------------- */
+.sitsugiImg01 {
+	width: 236px;
+}
+.sitsugiTxt01 {
+	width: 430px;
+}
+.sitsugiTxt02 {
+	background: url(../img/arayaki/05/img_photo02.jpg) no-repeat left top;
+	padding: 0 0 0 175px;
+}
+.sitsugiTxt03 {
+	background: url(../img/arayaki/05/img_photo04.jpg) no-repeat right top;
+	padding: 0 240px 0 0;
+}
+.sitsugiTxt04 {
+	color: #333333 !important;
+}
+/* #sitsugi -------------------- */
+.Arrange2.productList {
+	width: 160px !important;
+	margin-right: 20px !important;
+}
+.last.Arrange2.productList {
+	margin-right: 0 !important;
+}
+.productList a span.photo img {
+	border: 1px solid #dad5cf;
+}
+.productList a span.ttl {
+	font-size: 16px !important;
+}
+#right_content.productRight {
+	padding-top: 55px;
+}
+/* #shujiru -------------------- */
+.shijiruImg01 {
+	width: 255px;
+}
+.shijiruTxt01 {
+	width: 425px;
+}
+.shijiruImg02 {
+	width: 250px;
+}
+.shijiruTxt02 {
+	width: 430px;
+}
+.shijiruImg03 {
+	width: 216px;
+}
+.shijiruTxt03 {
+	width: 464px;
+}
+/* #mango -------------------- */
+.mangoImg01 {
+	width: 312px;
+}
+.mangoTxt01 {
+	width: 368px;
+}
+.mangoImg02 {
+	width: 258px;
+}
+.mangoTxt02 {
+	width: 422px;
+}
+/* #company -------------------- */
+.companyTable table {
+	width: 100%;
+}
+
+.companyTable table tr th {
+	text-align: left;
+	background-color: #f8f5f1;
+	padding: 20px 15px;
+	font-size: 16px;
+	border-top: solid 1px #d9d0c9;
+	width: 100px;
+	vertical-align: top;
+}
+
+.companyTable table tr td {
+	text-align: left;
+	padding: 20px 15px;
+	border-top: solid 1px #d9d0c9;
+	vertical-align: top;
+}
+.companyTxt {
+	text-align: right;
+}
+/* #privacy -------------------- */
+.privacyList {
+	list-style-type: decimal;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+/* #kameire -------------------- */
+.kinenbiTxt01 {
+	color: #777;
+	margin-bottom: 30px;
+}
+/* #mapcode -------------------- */
+.mapcodeTxt {
+	color: #e74f20;
+}
+
+/* ページャー */
+.pager{
+    margin-bottom: 20px;
+    text-align:center}
+ 
+a.page-numbers,
+.pager .current{
+    background-color: #edede3;
+    border: solid 1px #aaaaaa;
+    border-radius:5px;
+    padding:5px 8px;
+    margin:0 2px;}
+ 
+.pager .current{
+    background-color: #000000;
+    border: solid 1px #000000;
+    color: #ffffff;}
+ 
+.pager a:hover{
+    color: #ffffff;
+    border: solid 1px #000000;
+    background-color: #000000;}
+    
+    
+/* 追記 */
+
+.mb15 {margin-bottom: 15px;}
+.mb30 {margin-bottom: 30px;}
+.mb60 {margin-bottom: 60px;}
+.mb70 {margin-bottom: 70px;}
+
+.alignL {text-align: left;}
+.alignR {text-align: right;}
+.alignC {text-align: center;}

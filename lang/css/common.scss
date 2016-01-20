@@ -1,0 +1,335 @@
+@charset "UTF-8";
+
+@import "en.scss";
+@import "fonts.scss";
+@import "space.scss";
+@import "common-sp.scss";
+@import "tw.scss";
+
+html,body {
+	font-family: "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, sans-serif;
+	margin: auto;	
+}
+html {font-size: 62.5%;}
+
+.icon {
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.ta-c {text-align: center;}
+.ta-r {text-align: right;}
+.fl-l {float: left;}
+.fl-r {float: right;}
+.ov-h {overflow: hidden;}
+ul {padding: 0;}
+img {max-width: 100%;}
+.annotation {color: #e74f20;}
+.item-box-01 {
+	overflow: hidden;
+	margin-bottom: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px dotted #b49e88;
+	.item-img-box {
+		float: left;
+		margin-right: 30px;
+		width: 215px;
+	}
+	.item-txt-box {
+		float: right;
+		width: 715px;
+		h4 {
+			color: #482d11;
+			font-size: 20px;
+			border-bottom: 1px solid #482d11;
+			padding-bottom: 5px;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+		ol {
+			line-height: 1.75em;
+		}
+	}
+}
+.item-box-02 {
+	margin-top: 30px;
+	h4 {
+		color: #482d11;
+		font-size: 20px;
+		border-bottom: 1px solid #482d11;
+		padding-bottom: 5px;
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+}
+.table-01 {
+	width: 100%;
+	text-align: left;
+	tr {
+		border-bottom: 1px solid #d9d0c9;
+		&:first-child {
+			border-top: 1px solid #d9d0c9;
+		}
+		th {
+			padding: 20px;
+			background-color: #f8f5f1;
+			width: 235px;
+			font-weight: normal;
+			vertical-align: top;
+		}
+		td {
+			padding: 20px;
+			ol {
+				li {
+					margin-bottom: 30px;
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* breadcrumbs -------------------- */
+.breadcrumbs {
+	margin: 20px 0;
+	font-size: 0;
+	padding-left: 10px;
+	line-height: 0;
+	li {
+		display: inline-block;
+		font-size: 12px;
+		line-height: 1;
+		margin-right: 8px;
+		a {
+			display: inline-block;
+			padding-right: 8px;
+		}
+	}
+}
+
+
+
+#lang {
+
+	font-size: 16px;
+
+	/* #header -------------------- */
+	#header {
+		margin-bottom: 15px;
+		#h_navi {
+			width: 960px;
+			margin: auto;
+			overflow: hidden;
+			h1 {
+		  		float: left;
+		  		margin: auto;
+		  		a {
+				  display: block;
+				  font-size: 0;
+				  line-height: 0;
+		  		}
+		  	}//h1
+		  	ul {
+		  		float: right;
+		  		background-color: #4a127b;
+		  		margin-top: 25px;
+		  		font-size: 0;
+		  		li {
+		  			display: inline-block;
+		  			a {
+						line-height: 1em;
+		  				font-size: 13px;
+	  				    color: #fff;
+	  				    text-decoration: none;
+	  				    padding: 10px;
+	  				    display: block;
+	  				    border: 1px solid #4a127b;
+	  				    &:hover,
+	  				    &.on {
+	  				    	background-color: #fff;
+	  				    	color: #4a127b;
+	  				    }
+		  			}
+		  		}
+		  	}
+		}
+	}
+
+	#g_navi {
+		border-bottom: solid 8px #482d11;
+		border-top: solid 4px #482d11;
+		ul {
+			width: 960px;
+	  		margin: 0 auto;
+	  		font-size: 0;
+			li {
+				display: inline-block;
+				a {
+					display: block;
+					padding: 25px 0;
+					width: 192px;
+					text-indent: -99999px;
+					span {
+						font-size: 12px;
+						display: block;
+						text-align: center;
+						border-right: 1px solid #000;
+					}
+				}
+			}
+		}
+	}
+	
+	/* #content -------------------- */
+	#content {
+	  width: 960px;
+	  margin: 0 auto 160px;
+	  .content-inner {
+	  	h2 {
+	  		margin-bottom: 30px;
+	  	}
+	  	.section-box {
+	  		margin-bottom: 60px;
+	  		h3 {
+	  			margin-bottom: 30px;
+	  		}
+	  	}
+	  }
+	}
+
+	/* #footer -------------------- */
+	#footer {
+		background: url("http://www.chuko-awamori.com/wp-content/themes/chukowp/img/common/bg_footer.gif");
+		font-size: 14px;
+		.inner_wrap {
+			width: 960px;
+			margin: auto;
+			padding: 30px 0;
+			position: relative;
+			ul {
+				margin-top: 30px;
+				li {
+					display: inline-block;
+					margin-right: 33px;
+					font-size: 13px;
+					&:last-child {
+						margin-right: 0;
+					}
+					a {
+						color: #6d553c;
+						span {
+							margin-right: 5px;
+						}
+					}
+				}
+			}
+		}
+		.copy {
+			background: url("http://www.chuko-awamori.com/wp-content/themes/chukowp/img/common/bg_copy.gif") #2a1703 repeat-x 0 0;
+			color: #fff;
+			padding: 12px 0;
+			text-align: center;
+			font-size: 14px; 
+		}
+		#toTop {
+			position: absolute;
+			top: -45px;
+			right: -46px;
+			z-index: 100;
+			display: block;
+			width: 92px;
+			height: 45px;
+		}
+	}
+
+	/* tour -------------------- */
+	&.lang-tour {
+		.tour-info-box {
+			overflow: hidden;
+			margin-bottom: 30px;
+			.tour-info-img {
+				float: left;
+				margin-right: 55px;
+				width: 190px;
+			}
+			.tour-info-table {
+				float: right;
+				width: 715px;
+			}
+		}
+	}
+
+	/* kiln -------------------- */
+	&.lang-kiln {
+		.item-box-01 {
+			border-bottom: none;
+			margin-bottom: 0;
+			padding-bottom: 0;
+			.item-img-box {
+				width: 255px;
+			}
+			.item-txt-box {
+				width: 675px;
+			}
+		}
+	}
+	
+	/* shitsugi -------------------- */
+	&.lang-shitsugi {
+		.item-box-01 {
+			border-bottom: none;
+			margin-bottom: 0;
+			padding-bottom: 0;
+			.item-img-box {
+				width: 235px;
+				float: right;
+				margin-right: 0;
+				margin-left: 30px;
+			}
+			.item-txt-box {
+				width: 695px;
+				float: left;
+			}
+		}
+
+		.explanation-01 {
+			background: url('../images/common/shitsugi-img-02.jpg') no-repeat left center;
+			margin-bottom: 35px;
+			min-height: 180px;
+			p {
+				padding-left: 175px;
+			}
+		}
+		.explanation-02 {
+			background: url('../images/common/shitsugi-img-04.jpg') no-repeat right center;
+			margin-top: 35px;
+			min-height: 210px;
+			p {
+				padding-right: 320px;
+			}
+		}
+	}
+	
+	/* about -------------------- */
+	&.lang-about {
+		.greeting-box {
+			overflow: hidden;
+			.greeting-txt-box {
+				float: left;
+				width: 580px;
+			}
+			.greeting-img-box {
+				float: right;
+				width: 350px;
+				margin-left: 30px;
+			}
+		}
+		.table-01 {
+			margin-top: 60px;
+		}
+	}
+
+
+}//#lang

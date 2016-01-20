@@ -1,0 +1,521 @@
+@charset "utf-8";
+
+/* #kameire -------------------- */
+.kameireImg01 {
+	text-align: center;
+}
+.Arrange2.kameireLi {
+	width: 339px !important;
+	margin-right: 20px !important;
+}
+.last.Arrange2.kameireLi {
+	width: 339px !important;
+	margin-right: 0 !important;
+}
+.kameirePresen {
+	width: 700px;
+	height: 285px;
+	background: #fff0f3;
+	position: relative;
+	margin-bottom: 50px;
+}
+.kameirePresenImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.kameirePresenTtl {
+	position: absolute;
+	top: 30px;
+	left: 250px;
+}
+.kameirePresenTxt {
+	position: absolute;
+	top: 68px;
+	left: 250px;
+	width: 420px;
+}
+.sectionInner.kameireSectionBottom {
+	padding-bottom: 0 !important;
+	margin-bottom: 0 !important;
+}
+/* #wedding -------------------- */
+.weddingScheduleLeft {
+	width: 70px;
+}
+.weddingScheduleRight {
+	width: 395px;
+	padding-left: 20px;
+}
+.weddingScheduleRight span {
+	display: block;
+	color: #a27bac;
+	font-weight: bold;
+}
+.movieArea {
+	width: 690px;
+	margin: 0 auto;
+}
+.weddingPriceLeft {
+	width: 125px;
+	padding-left: 10px;
+}
+.weddingPriceRight {
+	width: 350px;
+}
+.weddingTxt {
+	padding-left: 10px;
+}
+.weddingTxt span {
+	color: #e74f20;
+}
+/* #access -------------------- */
+.accessTtl01 {
+	color: #482d11;
+	font-weight: bold;
+	display: block;
+}
+.accessTxtLeft {
+	float: left;
+	width: 120px;
+	border: 1px solid #492e12;
+	color: #482d11;
+	text-align: center;
+}
+.accessTxtRight {
+	float: left;
+	padding: 2px 0 0 20px;
+}
+.googleMapArea {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+.googleMapArea iframe,
+.googleMapArea object,
+.googleMapArea embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+/* #arayaki -------------------- */
+.arayakiVoiceBody {
+	width: 740px;
+	margin-left: -40px;
+}
+.arayakiVoiceBox {
+	width: 330px;
+	height: 185px;
+	margin: 0 0 35px 40px;
+	border-bottom: 1px dotted #b49e88;
+	padding-bottom: 35px;
+}
+.arayakiVoiceBox span,
+.arayakiVoiceBox img {
+	display: block;
+}
+.arayakiVoiceBox span.fl {
+	font-size: 16px;
+	font-weight: bold;
+	width: 135px;
+	line-height: 1.5em;
+	color: #e74f20;
+}
+.arayakiVoiceBox span.fr {
+	width: 165px;
+	height:185px;
+}
+/* #story -------------------- */
+.storyAwards {
+	border: 1px solid #dad5cf;
+	padding: 30px 20px;
+	text-align: left;
+}
+.storyAwardsTtl {
+	display: block;
+	font-size: 16px;
+	color: #482d11;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.storyAwards strong {
+	display: block;
+	border-bottom: 1px solid #482d11;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+.awardsBox {
+	display: block;
+}
+.awardsLeft {
+	width: 68%;
+	display: block;
+}
+.awardsRight {
+	width: 28%;
+	display: block;
+}
+.awardsRight img {
+	width: 100%;
+}
+.storyImg {
+	width: 255px;
+}
+.storyTxt {
+	width: 425px;
+}
+/* #kodawari -------------------- */
+.kodawariTxt01 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #f57d30;
+	text-align: center;
+}
+.kodawariBody {
+	width: 672px;
+	margin: 0 auto;
+}
+.kodawariBox {
+	width: 335px;
+}
+.kodawariBox span {
+	width: 300px;
+	display: block;
+	padding-top: 30px;
+}
+/* #sitsugi -------------------- */
+.sitsugiImg01 {
+	width: 236px;
+}
+.sitsugiTxt01 {
+	width: 430px;
+}
+.sitsugiTxt02 {
+	background: url(../img/arayaki/05/img_photo02.jpg) no-repeat left top;
+	padding: 0 0 0 175px;
+}
+.sitsugiTxt03 {
+	background: url(../img/arayaki/05/img_photo04.jpg) no-repeat right top;
+	padding: 0 240px 0 0;
+}
+.sitsugiTxt04 {
+	color: #333333 !important;
+}
+/* #sitsugi -------------------- */
+.Arrange2.productList {
+	width: 160px !important;
+	margin-right: 20px !important;
+}
+.last.Arrange2.productList {
+	margin-right: 0 !important;
+}
+.productList a span.photo img {
+	border: 1px solid #dad5cf;
+}
+.productList a span.ttl {
+	font-size: 16px !important;
+}
+#right_content.productRight {
+	padding-top: 55px;
+}
+/* #shujiru -------------------- */
+.shijiruImg01 {
+	width: 255px;
+}
+.shijiruTxt01 {
+	width: 425px;
+}
+.shijiruImg02 {
+	width: 250px;
+}
+.shijiruTxt02 {
+	width: 430px;
+}
+.shijiruImg03 {
+	width: 216px;
+}
+.shijiruTxt03 {
+	width: 464px;
+}
+.shijiruProductsTxt {
+	display: block;
+	padding-top: 10px;
+	text-align:center;
+}
+/* #mango -------------------- */
+.mangoImg01 {
+	width: 324px;
+}
+.mangoTxt01 {
+	width: 356px;
+}
+.mangoImg02 {
+	width: 258px;
+}
+.mangoTxt02 {
+	width: 422px;
+}
+/* #company -------------------- */
+.companyTable table {
+	width: 100%;
+}
+
+.companyTable table tr th {
+	text-align: left;
+	background-color: #f8f5f1;
+	padding: 20px 15px;
+	font-size: 16px;
+	border-top: solid 1px #d9d0c9;
+	width: 100px;
+	vertical-align: top;
+}
+
+.companyTable table tr td {
+	text-align: left;
+	padding: 20px 15px;
+	border-top: solid 1px #d9d0c9;
+	vertical-align: top;
+}
+.companyTxt {
+	text-align: right;
+}
+/* #privacy -------------------- */
+.privacyList {
+	list-style-type: decimal;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+/* #kameire -------------------- */
+.kinenbiTxt01 {
+	color: #777;
+	margin-bottom: 30px;
+}
+/* #mapcode -------------------- */
+.mapcodeTxt {
+	color: #e74f20;
+}
+/* #contactTorm7 -------------------- */
+.contactFormP {
+	margin: 0 0 20px 0;
+	font-weight: bold;
+	color: #613d17;
+}
+.contactFormP input {
+	width: 50%;
+}
+.contactFormP textarea {
+	width: 100%;
+}
+.contactFormTxt {
+	color: #e74f20;
+}
+/* #news -------------------- */
+.seminarTitle {
+	font-size: 24px;
+	color: #482d11;
+}
+.hapinahaBox {
+	border: 1px solid #6C0;
+	padding: 10px;
+}
+/* #experience -------------------- */
+.experienceTxt {
+	width: 420px;
+}
+.experienceImg {
+	width: 260px;
+}
+.experienceTable {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.experienceTable tr th {
+	text-align: left;
+	background-color: #f8f5f1;
+	padding: 20px 15px;
+	font-size: 16px;
+	border-top: solid 1px #d9d0c9;
+	width: 100px;
+	vertical-align: top;
+	line-height: 30px;
+}
+
+.experienceTable tr td {
+	text-align: left;
+	padding: 20px 15px;
+	border-top: solid 1px #d9d0c9;
+	vertical-align: top;
+	line-height: 30px;
+}
+.experienceTable tr td ul li {
+	list-style: disc;
+	margin-left: 20px;
+}
+.red {
+	color: #e74f20;
+}
+.experienceCation {
+	width: 100%;
+	background: #fdede8;
+	padding: 20px;
+	color: #e74f20;
+	line-height: 30px;
+}
+.experienceCation span {
+	display: block;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.experienceCation ul li {
+	list-style: disc;
+	margin-left: 20px;
+}
+
+.width50 {
+	width: 49%;
+}
+.width50 img {
+	width: 100%;
+}
+
+/* wordpress */
+
+.voicesamb_img{
+	width:135px;
+	height:185px;
+}
+
+.voicesamb_img img{
+	max-width: 135px;
+	height: 130px;
+	overflow:hidden;
+}
+
+.imgHidden{
+	display:none;
+}
+
+.w_50{width:50%;}
+.mb40{margin-bottom:40px;}
+.seminarTxt .voiceImg img{max-width:98%;}
+
+/* ページャー */
+.pager{
+    margin-bottom: 20px;
+    text-align:center}
+ 
+a.page-numbers,
+.pager .current{
+    background-color: #edede3;
+    border: solid 1px #aaaaaa;
+    border-radius:5px;
+    padding:5px 8px;
+    margin:0 2px;}
+ 
+.pager .current{
+    background-color: #000000;
+    border: solid 1px #000000;
+    color: #ffffff;}
+ 
+.pager a:hover{
+    color: #ffffff;
+    border: solid 1px #000000;
+    background-color: #000000;}
+
+
+/*150609追加*/	
+.seminarTxt img{
+	max-width:100%;
+}
+/*150803追加*/
+.anivoiceImg499 {
+	width: 300px;
+	height: auto;
+}
+
+/*151014追加*/
+.pamphletCullum01 {
+	width: 700px;
+	margin: 0 auto;
+}
+.pamphletCullum01 .imgCullum {width: 154px;}
+.pamphletCullum01 .txtCullum {width: 500px;}
+.pamphletCullum01 .txtCullum p {font-size: 14px;}
+
+.pamphletCullum03 .txtContent {
+	width: 320px;
+	float: left;
+	padding-top: 70px;
+}
+.pamphletCullum03 .imgContent {
+	width: 350px;
+	float: right;
+}
+
+.tableContent {
+	width: 100%;
+	display: table;
+	margin-bottom: 30px;
+}
+.tableContent p {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+}
+.tableContent p.title {
+	padding-right: 10px;
+}
+.tableContent p.text {
+	padding-left: 10px;
+	font-size: 12px;
+	border-left: solid 1px #221814;
+}
+
+.pamphletCullum04 .imgContent {
+	width: 117px;
+	float: left;
+	padding-top: 10px;
+}
+.pamphletCullum04 .tableContent {
+	width: 550px;
+	float: right;
+}
+
+.pamphletCullum05 {margin-bottom: 30px;}
+.pamphletCullum05 .leftContent {
+	width: 255px;
+	float: left;
+}
+.pamphletCullum05 .rightContent {
+	width: 413px;
+	float: right;
+}
+
+.linkBtn a {
+	display: block;
+	width: 345px;
+	margin: 0 auto;
+}
+
+.linkBtn02 a {
+	display: block;
+	width: 418px;
+	margin: 0 auto;
+}
+
+.pamphletBg {
+	margin-top: 20px;
+	padding-right: 220px;
+	background: url('/wp-content/themes/chukowp/img/factory/07/renewal/pamphlet03_11.png') no-repeat right top;
+}
+
+/*151110追加*/
+.cautionFormTxt01 {
+	font-weight: 700;
+	color: #9d0d31;
+}

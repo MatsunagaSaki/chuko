@@ -1,0 +1,19 @@
+@mixin generat-margin($val, $c){
+  $m: $val;
+  @for $i from 1 through 30 {
+    @if $c==mb{
+      .#{$c}-#{$m} {margin-bottom: #{$m}px;}
+    }
+    @if $c==mt{
+      .#{$c}-#{$m} {margin-top: #{$m}px;}
+    }
+    @if $c==mr{
+      .#{$c}-#{$m} {margin-right: #{$m}px;}
+    }
+    $m: $m+1;
+  }
+}
+
+@include generat-margin(1, mt);
+@include generat-margin(1, mb);
+@include generat-margin(1, mr);

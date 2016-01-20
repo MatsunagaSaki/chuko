@@ -1,0 +1,362 @@
+@charset 'utf-8';
+/* CSS Document */
+/*
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td
+{
+       margin:0; padding:0;
+	   font-family:"ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3, tahoma";
+	   font-size:14px;
+	   line-height:150%;
+	   color:#444;
+}
+
+body
+{
+	background-color: #B9A96E;
+}
+*/
+
+
+div.proc
+{
+	margin:16px 0px 40px 0px;
+}
+
+#page_wrap h2 {
+	background-color: #e8d3c7;
+	padding: 20px 15px 15px;
+	border-bottom: solid 3px #c1190d;
+	text-shadow: 0 1px #ffffff;
+	border-top: 1px solid #e5e5e5;
+	position: relative;
+	background: #e8d3c7 url('/images/line_wh.png') left top repeat-x;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.20);
+	margin-bottom: 25px;
+}
+div.typelist,
+div.layoutlist
+{
+	border:1px solid #FFFFDE;
+	padding:8px;
+	width:200px;
+	/*border-radius: 3px;*/
+	background-color:#FFFFFA;
+	float:left;
+	margin:4px;
+}
+div.typelist label,
+div.layoutlist label
+{
+	display:block;
+}
+p.alert
+{
+	/*font-size:11px;*/
+	color:#999;
+}
+fieldset
+{
+	border-radius:3px;
+	padding:4px 6px;
+	margin:4px 0px 8px 0px;
+	border: solid 1px #333;
+}
+input[type="text"]
+{
+	padding:4px;
+	width:180px;
+	font-size:14px;
+}
+input#show
+{
+	background-color: #f66;
+	color:#fff;
+	border:none;
+	padding:16px 32px;
+	margin-top:20px;
+	font-size: 180%;
+	font-weight:normal;
+}
+input#reset
+{
+	background-color: #000;
+	color:#fff;
+	border:none;
+	padding:16px 32px;
+	margin-top:20px;
+	font-size: 180%;
+	font-weight:normal;
+}
+#submitdo
+{
+	background-color: #f00;
+	color:#fff;
+	border:none;
+	padding:16px 32px;
+	margin-bottom:20px 0;
+	font-size: 180%;
+	font-weight:normal;
+	text-align:right;
+}
+
+div#show_img
+{
+	width:350px;
+	height:350px;
+	background:url(../images/layout2.jpg);
+	position:relative;
+	float: left;
+	margin-top:15px;
+	border:4px solid #444;
+}
+div#tate_img
+{
+	width:350px;
+	height:400px;
+	background:url(../images/layout5.jpg);
+	position:relative;
+	float: left;
+	margin-top:15px;
+	border:4px solid #444;
+
+}
+#output1,
+#output2,
+#output3,
+#output4,
+#output5
+{
+	font-family:"Times New Roman","HG明朝E","ＭＳ Ｐ明朝","MS PMincho","MS 明朝","ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","メイリオ",Meiryo, serif;
+	font-weight:bold;
+	font-size:32px;
+	color:#666;
+	width:300px;
+	position:absolute;
+	top:60px;
+	left:30px;
+	text-shadow: 1px 1px 0px #444;
+	letter-spacing:0em;
+	text-align:center;
+}
+#output2{top:140px;}
+#output3{top:180px;}
+#output4{top:250px;font-size:24px;}
+#output5{top:290px;font-size:24px;}
+
+/* 縦書きレイアウト用スタイルシート tate-style.css
+    last updated : Mar 27 , 2013 tyz@freefielder.jp
+    http://freefielder.jp http://tategaki.info/
+*/
+
+div.tate-area{
+	float:right;
+	font-size:12pt;
+}
+div.tate-area a{
+	color:#119;
+	text-decoration:none;
+}
+
+div.tate-line{
+	float:right;
+	width:1.05em;
+	line-height:1.05em;
+	margin-right:0.3em;
+	margin-left:0.3em;
+	padding-bottom:0.2em;
+	font-family:'ヒラギノ角ゴ ProN','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ Pro','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','ＭＳ ゴシック','MS Gothic','SimHei','HiraKakuProN-W3','STHeitiJ-Medium','TakaoExゴシック','TakaoExGothic','MotoyaLCedar','Droid Sans Japanese','Droid Sans Fallback',monospace;
+	word-wrap:break-word;
+	direction:ltr;
+}
+.tate-line font,strong,h1,h2,h3,h4,h5{
+	line-height:1.05em;
+}
+
+.tate-line span.tate-kuto{
+	display:block;
+	width:0.4em;
+	line-height:0.1em !Important;
+	margin-bottom:0.9em;
+	margin-left:0.6em !Important;
+}
+.tate-line span.tate-cho{
+	display:block;
+	-moz-transform:matrix(0, 1, 1, 0, 0, 0);
+	-webkit-transform:matrix(0, 1, 1, 0, 0, 0);
+	-o-transform:matrix(0, 1, 1, 0, 0, 0);
+	transform:matrix(0, 1, 1, 0, 0, 0);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1, mirror=1);
+}
+.tate-line span.tate-komoji{
+	display:block;
+	line-height:0.75em !Important;
+	margin-bottom:0.3em;
+	margin-left:0.11em !Important;
+}
+.tate-line span.tate-kakko{
+	display:block;
+	-moz-transform:rotate(90deg);
+	-webkit-transform:rotate(90deg);
+	-o-transform:rotate(90deg);
+	transform:rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+div.tate-separator{
+	clear:both;
+	height:2em;
+}
+
+/* フォントサイズ変更時のフォント位置アジャスト用 */
+.tate-line .font08{ font-size:8pt; }
+.tate-line .font10{ font-size:10pt; }
+.tate-line .font12{ font-size:12pt; }
+.tate-line .font14{ font-size:14pt; }
+.tate-line .font18{ font-size:18pt; }
+.tate-line .font24{ font-size:24pt; }
+.tate-line h1{ font-size:24pt; font-weight:bold; }
+.tate-line h2{ font-size:18pt; font-weight:bold; }
+.tate-line h3{ font-size:14pt; font-weight:bold; }
+.tate-line h4{ font-size:12pt; font-weight:bold; }
+
+.tate-line .font08 , .tate-line .font10 , .tate-line .font12 , .tate-line .font14 , .tate-line .font18 , .tate-line .font24 , .tate-line h1 , .tate-line h2 , .tate-line h3 , .tate-line h4 , .tate-line font  {
+	display:block;
+	position:relative;
+	left:50%;
+	width:1em;
+	line-height:1.05em;
+	margin-left:-0.5em;
+}
+
+
+#tate_output1,
+#tate_output2,
+#tate_output3,
+#tate_output4,
+#tate_output5
+{
+	font-family:"Times New Roman","HG明朝E","ＭＳ Ｐ明朝","MS PMincho","MS 明朝","ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","メイリオ",Meiryo, serif;
+	font-weight:bold;
+	font-size:32px;
+	color:#666;
+	position:absolute;
+	top:30px;
+	right:30px;
+	text-shadow: 1px 1px 0px #444;
+	letter-spacing:0em;
+	text-align:center;
+}
+#tate_output2{right:110px;}
+#tate_output3{right:150px;}
+#tate_output4{right:230px;font-size:26px;}
+#tate_output5{right:270px;font-size:26px;}
+.each-image
+{
+	margin:4px;
+	padding:4px;
+	float:left;
+	box-shadow:5px 5px 10px;
+}
+.each-image img
+{
+	width:100px;
+}
+
+div#other_layout
+{
+	width:320px;
+	float: right;
+	margin:15px 0px 0px 0px;
+	font-size:130%;
+	line-height:2.0em;
+}
+span.backblack
+{
+	font-size:110%;
+	background-color:#666;
+	border-radius:3px;
+	color:#fff;
+	padding:4px 8px;
+	margin-right:16px;
+	font-weight:normal;
+}
+
+div#show_kame,
+div#show_illust,
+div#show_layout,
+div#show_font
+{
+border-bottom:1px dotted #999;
+padding-bottom:4px;
+margin:16px 0px;
+}
+
+span.b
+{
+	font-weight:bold;
+}
+p.red
+{
+	color:#f00;
+	border:1px solid #f00;
+	border-radius:3px;
+	background-color:#ffefef;
+	padding:4px 16px;
+}
+::selection {
+  color: #999;
+}
+::-moz-selection {
+  color: #999;
+}
+ p.margin4
+ {
+ 	margin-bottom:4px;
+ }
+div.animal_name
+{
+	clear:both;
+	font-size:140%;
+	margin:16px 0px 4px 0px;
+	padding-left:16px;
+}
+div.layout_image_wrap
+{
+	width:200px;
+	height:200px;
+	text-align:center;
+	margin:8px 0px;
+
+}
+.layout_lbl
+{
+	display:block;
+	height:45px;
+}
+input#form_submit_style
+{
+	width:350px !important;
+	padding:8px !important;
+	font-size:140% !important;
+}
+
+
+
+
+input[type=radio] {
+  width: 20px !important;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.proc h3 {
+	background-color: #e8d3c7;
+	border-left: solid 3px #c1190d;
+	padding: 10px 10px 7px;
+	text-shadow: 0 1px #ffffff;
+	box-shadow: inset 1px 1px 2px rgba(0,0,0,0.1);
+	margin-bottom: 35px;
+}
+
+#page_wrap a {
+	color: #c1190d;
+}
